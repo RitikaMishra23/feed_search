@@ -21,8 +21,32 @@ Mean Reciprocal Rank (MRR): Rewards higher ranks for correct answers.
 
 Precision: Measures whether the target URL is in the top 5 results.  
 
+
 ### Testing set:
 
 Uses the top 5 retrieved URLs as context for an LLM.  
 
 Generates concise answers to user queries using Google's Gemini API.
+
+## Decision Made for Building the system
+
+### Retrieval Approach:
+
+Used TF-IDF vectorization for its simplicity and efficiency in converting text into feature vectors.  
+
+Chose cosine similarity to compute relevance as it works well with high-dimensional sparse vectors.
+
+## Evaluation Metrics:
+
+MRR: Focuses on ranking quality and a higher score indicates that correct answers are positioned higher.  
+
+Precision: Ensures significant top 5 results, aligning with the system requirements.  
+
+## Answer Generation on Test Set:
+
+Engineered Google's Gemini API to generate answers based on retrieved context.  
+
+Ensures scalable solution for real-world test cases.
+
+
+

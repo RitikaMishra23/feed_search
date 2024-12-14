@@ -1,9 +1,9 @@
 # feed_search
 
-**Project Overview**
+*Project Overview*
 This project involves building a search system .The system retrieves the top 5 most relevant URLs from the Clearfeed knowledge base. The retrieval system is evaluated using an evaluation dataset, and a  generation layer is implemented using Google's Gemini API.
 
-**Project Features**
+*Project Features*
 
 ***Retrieval System:***
 

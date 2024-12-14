@@ -36,13 +36,13 @@ Used TF-IDF vectorization for its simplicity and efficiency in converting text i
 
 Chose cosine similarity to compute relevance as it works well with high-dimensional sparse vectors.
 
-## Evaluation Metrics:
+### Evaluation Metrics:
 
 MRR: Focuses on ranking quality and a higher score indicates that correct answers are positioned higher.  
 
 Precision: Ensures significant top 5 results, aligning with the system requirements.  
 
-## Answer Generation on Test Set:
+### Answer Generation on Test Set:
 
 Engineered Google's Gemini API to generate answers based on retrieved context.  
 
